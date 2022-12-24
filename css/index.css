@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(246, 246, 246);
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.heading {
+  margin: 12px 0px;
+}
+
+.sub-heading {
+  margin: 4px 0px;
+}
+
+.question {
+  margin-bottom: 24px;
+}
+.question h3 {
+  margin: 8px 0px;
+  font-size: 24px;
+}
+
+.question p {
+  margin: 8px 0px;
+}
