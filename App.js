@@ -1,3 +1,6 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+
 const createHeading = (heading, subHeading) => {
   return React.createElement(
     'div',
@@ -7,7 +10,7 @@ const createHeading = (heading, subHeading) => {
     React.createElement(
       'a',
       { className: 'link', href: '../homework.html' },
-      'Theory Homework'
+      'Theory Homework test'
     )
   );
 };
