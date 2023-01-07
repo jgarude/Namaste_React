@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600&family=Open+Sans:wght@300;400;500&family=Poppins:wght@100;300;400;500&display=swap');
+
+body {
+  background-color: rgb(246, 246, 246);
+  font-family: 'Poppins', sans-serif;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.heading {
+  margin: 12px 0px;
+}
+
+.sub-heading {
+  margin: 4px 0px;
+}
+
+.question {
+  margin-bottom: 24px;
+}
+.question h3 {
+  margin: 8px 0px;
+  font-size: 24px;
+}
+
+.question p {
+  margin: 8px 0px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 15px 40px -20px rgb(40 44 63 / 15%);
+  padding: 12px;
+  .logo {
+    img {
+      width: 60px;
+    }
+  }
+  .search {
+    .search-bar {
+      border: 1px solid #ccc;
+      padding: 8px;
+      border-radius: 8px;
+      width: 260px;
+    }
+  }
+  .menu {
+    ul {
+      list-style: none;
+      display: flex;
+      li {
+        padding: 0px 8px;
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+@import "https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600&family=Open+Sans:wght@300;400;500&family=Poppins:wght@100;300;400;500&display=swap";
+body {
+  background-color: #f6f6f6;
+  font-family: Poppins, sans-serif;
+}
+
+*, :after, :before {
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+.heading {
+  margin: 12px 0;
+}
+
+.sub-heading {
+  margin: 4px 0;
+}
+
+.question {
+  margin-bottom: 24px;
+}
+
+.question h3 {
+  margin: 8px 0;
+  font-size: 24px;
+}
+
+.question p {
+  margin: 8px 0;
+}
+
+.header {
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  display: flex;
+  box-shadow: 0 15px 40px -20px #282c3f26;
+}
+
+.header .logo img {
+  width: 60px;
+}
+
+.header .search .search-bar {
+  width: 260px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.header .menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.header .menu ul li {
+  padding: 0 8px;
+}
+
+/*# sourceMappingURL=index.ac93e151.css.map */
