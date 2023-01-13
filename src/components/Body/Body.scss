@@ -1,0 +1,30 @@
+.body-container {
+  .restaurant-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+    input {
+      font-size: 1.15rem;
+      line-height: 24px;
+      width: 60%;
+      height: 100%;
+      outline: 0;
+      border: none;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-family: inherit;
+      color: inherit;
+      background: inherit;
+      vertical-align: middle;
+      font-weight: 500;
+      padding: 12px 10px;
+      border: 1px solid #ccc;
+    }
+  }
+}

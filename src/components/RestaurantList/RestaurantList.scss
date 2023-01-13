@@ -1,0 +1,45 @@
+$color_1: #686b78;
+$color_2: #fff;
+$background-color_1: #48c479;
+$border-color_1: #d3d5df;
+
+.restaurant {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  height: 320px;
+  margin: 0px 8px 10px 8px;
+  padding: 10px 20px;
+  &:hover {
+    border-color: $border-color_1;
+    box-shadow: 0 4px 7px 0 rgb(218 220 230 / 60%);
+  }
+  img {
+    max-width: 100%;
+  }
+  .title {
+    font-size: 16px;
+    margin-top: 8px;
+  }
+  .cuisines {
+    font-size: 10px;
+    color: $color_1;
+    margin: 8px 0px;
+  }
+  ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    li {
+      font-size: 12px;
+    }
+  }
+}
+.rating {
+  background-color: $background-color_1;
+  color: $color_2;
+  padding: 2px 9px;
+}

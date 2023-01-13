@@ -2503,13 +2503,13 @@ process.umask = function() {
     return 0;
 };
 
-},{}],"e3CPO":[function(require,module,exports) {
+},{}],"7Zeie":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d6ea1d42532a7575";
-module.bundle.HMR_BUNDLE_ID = "f8a609f57826abd7";
+module.bundle.HMR_BUNDLE_ID = "7fb4cd117271efb6";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE, chrome, browser, globalThis, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -2892,141 +2892,62 @@ function hmrAcceptRun(bundle, id) {
     acceptedAssets[id] = true;
 }
 
-},{}],"2Ew96":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$c1db = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{}],"2kQhy":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$f00f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$c1db.prelude(module);
+$parcel$ReactRefreshHelpers$f00f.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-var _reactDom = require("react-dom");
-var _reactDomDefault = parcelHelpers.interopDefault(_reactDom);
-const Title = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-        children: "This is title component 1"
-    }, void 0, false, {
-        fileName: "App.js",
-        lineNumber: 5,
-        columnNumber: 10
-    }, undefined);
-};
-_c = Title;
-const Header = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
-        className: "header",
+var _client = require("react-dom/client");
+var _clientDefault = parcelHelpers.interopDefault(_client);
+var _body = require("./components/Body/Body");
+var _bodyDefault = parcelHelpers.interopDefault(_body);
+var _footer = require("./components/Footer/Footer");
+var _footerDefault = parcelHelpers.interopDefault(_footer);
+var _header = require("./components/Header/Header");
+var _headerDefault = parcelHelpers.interopDefault(_header);
+const AppContainer = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "logo",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    src: "./images/logo.png"
-                }, void 0, false, {
-                    fileName: "App.js",
-                    lineNumber: 12,
-                    columnNumber: 9
-                }, undefined)
-            }, void 0, false, {
-                fileName: "App.js",
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
+                fileName: "src/App.js",
+                lineNumber: 10,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _bodyDefault.default), {}, void 0, false, {
+                fileName: "src/App.js",
                 lineNumber: 11,
                 columnNumber: 7
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "search",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                    type: "search",
-                    className: "search-bar",
-                    placeholder: "Search for food/restaurant"
-                }, void 0, false, {
-                    fileName: "App.js",
-                    lineNumber: 15,
-                    columnNumber: 9
-                }, undefined)
-            }, void 0, false, {
-                fileName: "App.js",
-                lineNumber: 14,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "menu",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: "Offers"
-                        }, void 0, false, {
-                            fileName: "App.js",
-                            lineNumber: 23,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: "Help"
-                        }, void 0, false, {
-                            fileName: "App.js",
-                            lineNumber: 24,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: "Sign In"
-                        }, void 0, false, {
-                            fileName: "App.js",
-                            lineNumber: 25,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: "Cart"
-                        }, void 0, false, {
-                            fileName: "App.js",
-                            lineNumber: 26,
-                            columnNumber: 11
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "App.js",
-                    lineNumber: 22,
-                    columnNumber: 9
-                }, undefined)
-            }, void 0, false, {
-                fileName: "App.js",
-                lineNumber: 21,
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {}, void 0, false, {
+                fileName: "src/App.js",
+                lineNumber: 12,
                 columnNumber: 7
             }, undefined)
         ]
-    }, void 0, true, {
-        fileName: "App.js",
-        lineNumber: 10,
-        columnNumber: 5
-    }, undefined);
+    }, void 0, true);
 };
-_c1 = Header;
-const AppContainer = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Header, {}, void 0, false, {
-            fileName: "App.js",
-            lineNumber: 36,
-            columnNumber: 7
-        }, undefined)
-    }, void 0, false);
-};
-_c2 = AppContainer;
-const root = (0, _reactDomDefault.default).createRoot(document.getElementById("root"));
+_c = AppContainer;
+const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AppContainer, {}, void 0, false, {
-    fileName: "App.js",
-    lineNumber: 43,
+    fileName: "src/App.js",
+    lineNumber: 19,
     columnNumber: 13
 }, undefined));
-var _c, _c1, _c2;
-$RefreshReg$(_c, "Title");
-$RefreshReg$(_c1, "Header");
-$RefreshReg$(_c2, "AppContainer");
+var _c;
+$RefreshReg$(_c, "AppContainer");
 
-  $parcel$ReactRefreshHelpers$c1db.postlude(module);
+  $parcel$ReactRefreshHelpers$f00f.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom":"j6uA9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./components/Body/Body":"bWFfW","./components/Footer/Footer":"Sm3O5","./components/Header/Header":"hTZHl","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-dom/client":"lOjBx"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("20a3ba25a179deaf");
 
@@ -5731,7 +5652,2405 @@ module.exports = require("77c25d9992db81d3");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{}],"j6uA9":[function(require,module,exports) {
+},{}],"bWFfW":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$6e49 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$6e49.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _config = require("../../config");
+var _restaurantList = require("../RestaurantList/RestaurantList");
+var _restaurantListDefault = parcelHelpers.interopDefault(_restaurantList);
+var _bodyScss = require("./Body.scss");
+var _s = $RefreshSig$();
+const Body = ()=>{
+    _s();
+    const [restaurantList, setRestaurantList] = (0, _react.useState)([]);
+    const [query, setQuery] = (0, _react.useState)("");
+    const findRestrarants = (restaurantList)=>{
+        const results = restaurantList.filter((restaurant)=>restaurant.data.slugs.restaurant.includes(query));
+        console.log(">>>>>> restaurantList 1211212", results);
+        return results;
+    };
+    (0, _react.useEffect)(()=>{
+        setRestaurantList((0, _config.data));
+    }, []);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "body-container",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "search",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                    type: "search",
+                    className: "search-bar",
+                    placeholder: "Search for food/restaurant",
+                    onChange: (e)=>setQuery(e.target.value)
+                }, void 0, false, {
+                    fileName: "src/components/Body/Body.jsx",
+                    lineNumber: 25,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/Body/Body.jsx",
+                lineNumber: 24,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "restaurant-list",
+                children: [
+                    console.log(">>>>> restaurantList1", restaurantList),
+                    findRestrarants(restaurantList).map((item)=>{
+                        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _restaurantListDefault.default), {
+                            restaurant: item.data
+                        }, item.data.id, false, {
+                            fileName: "src/components/Body/Body.jsx",
+                            lineNumber: 35,
+                            columnNumber: 18
+                        }, undefined);
+                    })
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Body/Body.jsx",
+                lineNumber: 32,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Body/Body.jsx",
+        lineNumber: 23,
+        columnNumber: 5
+    }, undefined);
+};
+_s(Body, "tVJV3/6i7APoz727Bjx7h1oWm/Q=");
+_c = Body;
+exports.default = Body;
+var _c;
+$RefreshReg$(_c, "Body");
+
+  $parcel$ReactRefreshHelpers$6e49.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../../config":"jtCLN","../RestaurantList/RestaurantList":"5X1cP","./Body.scss":"1wi6y"}],"gkKU3":[function(require,module,exports) {
+exports.interopDefault = function(a) {
+    return a && a.__esModule ? a : {
+        default: a
+    };
+};
+exports.defineInteropFlag = function(a) {
+    Object.defineProperty(a, "__esModule", {
+        value: true
+    });
+};
+exports.exportAll = function(source, dest) {
+    Object.keys(source).forEach(function(key) {
+        if (key === "default" || key === "__esModule" || dest.hasOwnProperty(key)) return;
+        Object.defineProperty(dest, key, {
+            enumerable: true,
+            get: function() {
+                return source[key];
+            }
+        });
+    });
+    return dest;
+};
+exports.export = function(dest, destName, get) {
+    Object.defineProperty(dest, destName, {
+        enumerable: true,
+        get: get
+    });
+};
+
+},{}],"km3Ru":[function(require,module,exports) {
+"use strict";
+var Refresh = require("806185422dde97b5");
+function debounce(func, delay) {
+    var args;
+    {
+        let timeout = undefined;
+        let lastTime = 0;
+        return function(args) {
+            // Call immediately if last call was more than the delay ago.
+            // Otherwise, set a timeout. This means the first call is fast
+            // (for the common case of a single update), and subsequent updates
+            // are batched.
+            let now = Date.now();
+            if (now - lastTime > delay) {
+                lastTime = now;
+                func.call(null, args);
+            } else {
+                clearTimeout(timeout);
+                timeout = setTimeout(function() {
+                    timeout = undefined;
+                    lastTime = Date.now();
+                    func.call(null, args);
+                }, delay);
+            }
+        };
+    }
+}
+var enqueueUpdate = debounce(function() {
+    Refresh.performReactRefresh();
+}, 30); // Everthing below is either adapted or copied from
+// https://github.com/facebook/metro/blob/61de16bd1edd7e738dd0311c89555a644023ab2d/packages/metro/src/lib/polyfills/require.js
+// MIT License - Copyright (c) Facebook, Inc. and its affiliates.
+module.exports.prelude = function(module1) {
+    window.$RefreshReg$ = function(type, id) {
+        Refresh.register(type, module1.id + " " + id);
+    };
+    window.$RefreshSig$ = Refresh.createSignatureFunctionForTransform;
+};
+module.exports.postlude = function(module1) {
+    if (isReactRefreshBoundary(module1.exports)) {
+        registerExportsForReactRefresh(module1);
+        if (module1.hot) {
+            module1.hot.dispose(function(data) {
+                if (Refresh.hasUnrecoverableErrors()) window.location.reload();
+                data.prevExports = module1.exports;
+            });
+            module1.hot.accept(function(getParents) {
+                var prevExports = module1.hot.data.prevExports;
+                var nextExports = module1.exports; // Since we just executed the code for it, it's possible
+                // that the new exports make it ineligible for being a boundary.
+                var isNoLongerABoundary = !isReactRefreshBoundary(nextExports); // It can also become ineligible if its exports are incompatible
+                // with the previous exports.
+                // For example, if you add/remove/change exports, we'll want
+                // to re-execute the importing modules, and force those components
+                // to re-render. Similarly, if you convert a class component
+                // to a function, we want to invalidate the boundary.
+                var didInvalidate = shouldInvalidateReactRefreshBoundary(prevExports, nextExports);
+                if (isNoLongerABoundary || didInvalidate) {
+                    // We'll be conservative. The only case in which we won't do a full
+                    // reload is if all parent modules are also refresh boundaries.
+                    // In that case we'll add them to the current queue.
+                    var parents = getParents();
+                    if (parents.length === 0) {
+                        // Looks like we bubbled to the root. Can't recover from that.
+                        window.location.reload();
+                        return;
+                    }
+                    return parents;
+                }
+                enqueueUpdate();
+            });
+        }
+    }
+};
+function isReactRefreshBoundary(exports) {
+    if (Refresh.isLikelyComponentType(exports)) return true;
+    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
+    return false;
+    var hasExports = false;
+    var areAllExportsComponents = true;
+    let isESM = "__esModule" in exports;
+    for(var key in exports){
+        hasExports = true;
+        if (key === "__esModule") continue;
+        var desc = Object.getOwnPropertyDescriptor(exports, key);
+        if (desc && desc.get && !isESM) // Don't invoke getters for CJS as they may have side effects.
+        return false;
+        var exportValue = exports[key];
+        if (!Refresh.isLikelyComponentType(exportValue)) areAllExportsComponents = false;
+    }
+    return hasExports && areAllExportsComponents;
+}
+function shouldInvalidateReactRefreshBoundary(prevExports, nextExports) {
+    var prevSignature = getRefreshBoundarySignature(prevExports);
+    var nextSignature = getRefreshBoundarySignature(nextExports);
+    if (prevSignature.length !== nextSignature.length) return true;
+    for(var i = 0; i < nextSignature.length; i++){
+        if (prevSignature[i] !== nextSignature[i]) return true;
+    }
+    return false;
+} // When this signature changes, it's unsafe to stop at this refresh boundary.
+function getRefreshBoundarySignature(exports) {
+    var signature = [];
+    signature.push(Refresh.getFamilyByType(exports));
+    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
+    // (This is important for legacy environments.)
+    return signature;
+    let isESM = "__esModule" in exports;
+    for(var key in exports){
+        if (key === "__esModule") continue;
+        var desc = Object.getOwnPropertyDescriptor(exports, key);
+        if (desc && desc.get && !isESM) continue;
+        var exportValue = exports[key];
+        signature.push(key);
+        signature.push(Refresh.getFamilyByType(exportValue));
+    }
+    return signature;
+}
+function registerExportsForReactRefresh(module1) {
+    var exports = module1.exports, id = module1.id;
+    Refresh.register(exports, id + " %exports%");
+    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
+    // (This is important for legacy environments.)
+    return;
+    let isESM = "__esModule" in exports;
+    for(var key in exports){
+        var desc = Object.getOwnPropertyDescriptor(exports, key);
+        if (desc && desc.get && !isESM) continue;
+        var exportValue = exports[key];
+        Refresh.register(exportValue, id + " %exports% " + key);
+    }
+}
+
+},{"806185422dde97b5":"786KC"}],"jtCLN":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "imgPath", ()=>imgPath);
+parcelHelpers.export(exports, "data", ()=>data);
+const imgPath = "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/";
+const data = [
+    {
+        type: "restaurant",
+        data: {
+            type: "F",
+            id: "17036",
+            name: "Hotel Leon's - Burgers & Wings (Leon Grill)",
+            uuid: "b76d4f5f-8637-4181-a76b-e95cc90d44b0",
+            city: "1",
+            area: "HSR Layout",
+            totalRatingsString: "1000+ ratings",
+            cloudinaryImageId: "ykkoaqqefmycmwsjmxcm",
+            cuisines: [
+                "American",
+                "Snacks",
+                "Turkish",
+                "Portuguese",
+                "Continental"
+            ],
+            tags: [],
+            costForTwo: 30000,
+            costForTwoString: "₹300 FOR TWO",
+            deliveryTime: 30,
+            minDeliveryTime: 25,
+            maxDeliveryTime: 35,
+            slaString: "25-35 MINS",
+            lastMileTravel: 4.199999809265137,
+            slugs: {
+                restaurant: "leon-grill-3rd-sector-hsr",
+                city: "bangalore"
+            },
+            cityState: "1",
+            address: "No.17, Ground Floor, 18th Cross Road, 3rd Sector, HSR Layout, Bangalore.",
+            locality: "3rd Sector",
+            parentId: 371281,
+            unserviceable: false,
+            veg: false,
+            select: false,
+            favorite: false,
+            tradeCampaignHeaders: [],
+            aggregatedDiscountInfo: {
+                header: "50% off",
+                shortDescriptionList: [
+                    {
+                        meta: "50% off | Use WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "50% off up to ₹90 | Use code WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                subHeader: "",
+                headerType: 0,
+                superFreedel: ""
+            },
+            aggregatedDiscountInfoV2: {
+                header: "50% OFF",
+                shortDescriptionList: [
+                    {
+                        meta: "Use WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "50% off up to ₹90 | Use code WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                subHeader: "",
+                headerType: 0,
+                superFreedel: ""
+            },
+            ribbon: [
+                {
+                    type: "PROMOTED"
+                }
+            ],
+            chain: [],
+            feeDetails: {
+                fees: [],
+                totalFees: 0,
+                message: "",
+                title: "",
+                amount: "",
+                icon: ""
+            },
+            availability: {
+                opened: true,
+                nextOpenMessage: "",
+                nextCloseMessage: ""
+            },
+            longDistanceEnabled: 0,
+            rainMode: "NONE",
+            thirdPartyAddress: false,
+            thirdPartyVendor: "",
+            adTrackingID: "cid=5702907~p=1~eid=00000185-ab9f-0833-33dc-8c7e00310136",
+            badges: {
+                imageBased: [],
+                textBased: [],
+                textExtendedBadges: []
+            },
+            lastMileTravelString: "4.1 kms",
+            hasSurge: false,
+            sla: {
+                restaurantId: "17036",
+                deliveryTime: 30,
+                minDeliveryTime: 25,
+                maxDeliveryTime: 35,
+                lastMileTravel: 4.199999809265137,
+                lastMileDistance: 0,
+                serviceability: "SERVICEABLE",
+                rainMode: "NONE",
+                longDistance: "NOT_LONG_DISTANCE",
+                preferentialService: false,
+                iconType: "EMPTY"
+            },
+            promoted: true,
+            avgRating: "4.4",
+            totalRatings: 1000,
+            new: false
+        },
+        subtype: "basic"
+    },
+    {
+        type: "restaurant",
+        data: {
+            type: "F",
+            id: "323187",
+            name: "Hotel Meghana Foods",
+            uuid: "227c3d9c-8011-407e-8f49-978abd85243f",
+            city: "1",
+            area: "Hosur Road",
+            totalRatingsString: "1000+ ratings",
+            cloudinaryImageId: "nw2xeql0jokm2rqnkzfs",
+            cuisines: [
+                "Biryani",
+                "Andhra",
+                "South Indian",
+                "North Indian",
+                "Chinese",
+                "Seafood"
+            ],
+            tags: [],
+            costForTwo: 50000,
+            costForTwoString: "₹500 FOR TWO",
+            deliveryTime: 29,
+            minDeliveryTime: 29,
+            maxDeliveryTime: 29,
+            slaString: "29 MINS",
+            lastMileTravel: 3,
+            slugs: {
+                restaurant: "meghana-foods-kudlu-gate-kudlu-gate",
+                city: "bangalore"
+            },
+            cityState: "1",
+            address: "NO 1066, AECS LAYOUT, A BLOCK SINGASANDRA HOSUR MAIN ROAD, BANGALORE BBMP SOUTH KARNATAKA",
+            locality: "Singasandra",
+            parentId: 635,
+            unserviceable: false,
+            veg: false,
+            select: false,
+            favorite: false,
+            tradeCampaignHeaders: [],
+            aggregatedDiscountInfo: {
+                header: "50% off",
+                shortDescriptionList: [
+                    {
+                        meta: "50% off | Use WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "50% off up to ₹90 | Use code WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                subHeader: "",
+                headerType: 0,
+                superFreedel: ""
+            },
+            aggregatedDiscountInfoV2: {
+                header: "50% OFF",
+                shortDescriptionList: [
+                    {
+                        meta: "Use WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "50% off up to ₹90 | Use code WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                subHeader: "",
+                headerType: 0,
+                superFreedel: ""
+            },
+            chain: [],
+            feeDetails: {
+                fees: [],
+                totalFees: 0,
+                message: "",
+                title: "",
+                amount: "",
+                icon: ""
+            },
+            availability: {
+                opened: true,
+                nextOpenMessage: "",
+                nextCloseMessage: ""
+            },
+            longDistanceEnabled: 0,
+            rainMode: "NONE",
+            thirdPartyAddress: false,
+            thirdPartyVendor: "",
+            adTrackingID: "",
+            badges: {
+                imageBased: [],
+                textBased: [],
+                textExtendedBadges: []
+            },
+            lastMileTravelString: "3 kms",
+            hasSurge: false,
+            sla: {
+                restaurantId: "323187",
+                deliveryTime: 29,
+                minDeliveryTime: 29,
+                maxDeliveryTime: 29,
+                lastMileTravel: 3,
+                lastMileDistance: 0,
+                serviceability: "SERVICEABLE",
+                rainMode: "NONE",
+                longDistance: "NOT_LONG_DISTANCE",
+                preferentialService: false,
+                iconType: "EMPTY"
+            },
+            promoted: false,
+            avgRating: "4.3",
+            totalRatings: 1000,
+            new: false
+        },
+        subtype: "basic"
+    },
+    {
+        type: "restaurant",
+        data: {
+            type: "F",
+            id: "654333",
+            name: "Hotel Biryani Pot",
+            uuid: "a06569bd-472f-49b0-b1b1-0e62e863a1bc",
+            city: "1",
+            area: "Bellandur",
+            totalRatingsString: "Too Few Ratings",
+            cloudinaryImageId: "c2203515d2289b88d6a916a43988120c",
+            cuisines: [
+                "Biryani",
+                "Chinese",
+                "North Indian",
+                "Fast Food"
+            ],
+            tags: [],
+            costForTwo: 25000,
+            costForTwoString: "₹250 FOR TWO",
+            deliveryTime: 36,
+            minDeliveryTime: 35,
+            maxDeliveryTime: 45,
+            slaString: "35-45 MINS",
+            lastMileTravel: 5,
+            slugs: {
+                restaurant: "hot biryani-pot-bellandur-sarjapur-bellandur-sarjapur-2",
+                city: "bangalore"
+            },
+            cityState: "1",
+            address: "6/2, Opposite Food World Supermarket Road, 12th Cross, Kasavannahalli Main Road, Bellandur Ward, Sarjapur Road, Bangalore",
+            locality: "Kasavannahalli Main Road",
+            parentId: 21798,
+            unserviceable: false,
+            veg: false,
+            select: false,
+            favorite: false,
+            tradeCampaignHeaders: [],
+            aggregatedDiscountInfo: {
+                header: "50% off",
+                shortDescriptionList: [
+                    {
+                        meta: "50% off | Use WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "50% off up to ₹90 | Use code WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                subHeader: "",
+                headerType: 0,
+                superFreedel: ""
+            },
+            aggregatedDiscountInfoV2: {
+                header: "50% OFF",
+                shortDescriptionList: [
+                    {
+                        meta: "Use WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "50% off up to ₹90 | Use code WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                subHeader: "",
+                headerType: 0,
+                superFreedel: ""
+            },
+            ribbon: [
+                {
+                    type: "NEW"
+                }
+            ],
+            chain: [],
+            feeDetails: {
+                fees: [],
+                totalFees: 0,
+                message: "",
+                title: "",
+                amount: "",
+                icon: ""
+            },
+            availability: {
+                opened: true,
+                nextOpenMessage: "",
+                nextCloseMessage: ""
+            },
+            longDistanceEnabled: 0,
+            rainMode: "NONE",
+            thirdPartyAddress: false,
+            thirdPartyVendor: "",
+            adTrackingID: "",
+            badges: {
+                imageBased: [],
+                textBased: [],
+                textExtendedBadges: []
+            },
+            lastMileTravelString: "5 kms",
+            hasSurge: false,
+            sla: {
+                restaurantId: "654333",
+                deliveryTime: 36,
+                minDeliveryTime: 35,
+                maxDeliveryTime: 45,
+                lastMileTravel: 5,
+                lastMileDistance: 0,
+                serviceability: "SERVICEABLE",
+                rainMode: "NONE",
+                longDistance: "NOT_LONG_DISTANCE",
+                preferentialService: false,
+                iconType: "EMPTY"
+            },
+            promoted: false,
+            avgRating: "--",
+            totalRatings: 0,
+            new: true
+        },
+        subtype: "basic"
+    },
+    {
+        type: "restaurant",
+        data: {
+            type: "F",
+            id: "342032",
+            name: "Bhartiya Jalpan",
+            uuid: "9bd9aa90-0b97-4f24-969a-3f16c5aafc66",
+            city: "1",
+            area: "HSR Layout",
+            totalRatingsString: "1000+ ratings",
+            cloudinaryImageId: "ybfyjdu8fhlgqj6i9dlh",
+            cuisines: [
+                "North Indian",
+                "Sweets",
+                "Desserts",
+                "Chaat"
+            ],
+            tags: [],
+            costForTwo: 45000,
+            costForTwoString: "₹450 FOR TWO",
+            deliveryTime: 38,
+            minDeliveryTime: 35,
+            maxDeliveryTime: 45,
+            slaString: "35-45 MINS",
+            lastMileTravel: 3.799999952316284,
+            slugs: {
+                restaurant: "bhartiya-jalpan-hsr-hsr",
+                city: "bangalore"
+            },
+            cityState: "1",
+            address: "NO.2631,27TH MAIN ROAD, 1ST SECTOR , HSR LAYOUT, BANGALORE - 560102",
+            locality: "1st Sector",
+            parentId: 7518,
+            unserviceable: false,
+            veg: true,
+            select: false,
+            favorite: false,
+            tradeCampaignHeaders: [],
+            aggregatedDiscountInfo: {
+                header: "50% off",
+                shortDescriptionList: [
+                    {
+                        meta: "50% off | Use WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "50% off up to ₹90 | Use code WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                subHeader: "",
+                headerType: 0,
+                superFreedel: ""
+            },
+            aggregatedDiscountInfoV2: {
+                header: "50% OFF",
+                shortDescriptionList: [
+                    {
+                        meta: "Use WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "50% off up to ₹90 | Use code WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                subHeader: "",
+                headerType: 0,
+                superFreedel: ""
+            },
+            ribbon: [
+                {
+                    type: "PROMOTED"
+                }
+            ],
+            chain: [],
+            feeDetails: {
+                fees: [],
+                totalFees: 0,
+                message: "",
+                title: "",
+                amount: "",
+                icon: ""
+            },
+            availability: {
+                opened: true,
+                nextOpenMessage: "",
+                nextCloseMessage: ""
+            },
+            longDistanceEnabled: 0,
+            rainMode: "NONE",
+            thirdPartyAddress: false,
+            thirdPartyVendor: "",
+            adTrackingID: "cid=5717506~p=4~eid=00000185-ab9f-0833-33dc-8c7f00310417",
+            badges: {
+                imageBased: [],
+                textBased: [],
+                textExtendedBadges: []
+            },
+            lastMileTravelString: "3.7 kms",
+            hasSurge: false,
+            sla: {
+                restaurantId: "342032",
+                deliveryTime: 38,
+                minDeliveryTime: 35,
+                maxDeliveryTime: 45,
+                lastMileTravel: 3.799999952316284,
+                lastMileDistance: 0,
+                serviceability: "SERVICEABLE",
+                rainMode: "NONE",
+                longDistance: "NOT_LONG_DISTANCE",
+                preferentialService: false,
+                iconType: "EMPTY"
+            },
+            promoted: true,
+            avgRating: "4.1",
+            totalRatings: 1000,
+            new: false
+        },
+        subtype: "basic"
+    },
+    {
+        type: "restaurant",
+        data: {
+            type: "F",
+            id: "426",
+            name: "Hotel Empire",
+            uuid: "e9d1bf5c-a40f-4a12-adcb-c7eef7e1feb6",
+            city: "1",
+            area: "HSR Layout",
+            totalRatingsString: "1000+ ratings",
+            cloudinaryImageId: "gswvotfmtwj47y7o7nqh",
+            cuisines: [
+                "North Indian",
+                "Kebabs",
+                "Biryani"
+            ],
+            tags: [],
+            costForTwo: 45000,
+            costForTwoString: "₹450 FOR TWO",
+            deliveryTime: 41,
+            minDeliveryTime: 40,
+            maxDeliveryTime: 50,
+            slaString: "40-50 MINS",
+            lastMileTravel: 5,
+            slugs: {
+                restaurant: "hotel-empire-sector-6-hsr",
+                city: "bangalore"
+            },
+            cityState: "1",
+            address: "169/A/170, Opposite Shoba Super Market, Sector 6, HSR Layout, HSR, Bangalore",
+            locality: "HSR Layout",
+            parentId: 475,
+            unserviceable: false,
+            veg: false,
+            select: false,
+            favorite: false,
+            tradeCampaignHeaders: [],
+            aggregatedDiscountInfo: {
+                header: "50% off",
+                shortDescriptionList: [
+                    {
+                        meta: "50% off | Use WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "50% off up to ₹90 | Use code WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                subHeader: "",
+                headerType: 0,
+                superFreedel: ""
+            },
+            aggregatedDiscountInfoV2: {
+                header: "50% OFF",
+                shortDescriptionList: [
+                    {
+                        meta: "Use WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "50% off up to ₹90 | Use code WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                subHeader: "",
+                headerType: 0,
+                superFreedel: ""
+            },
+            chain: [],
+            feeDetails: {
+                fees: [],
+                totalFees: 0,
+                message: "",
+                title: "",
+                amount: "",
+                icon: ""
+            },
+            availability: {
+                opened: true,
+                nextOpenMessage: "",
+                nextCloseMessage: ""
+            },
+            longDistanceEnabled: 0,
+            rainMode: "NONE",
+            thirdPartyAddress: false,
+            thirdPartyVendor: "",
+            adTrackingID: "",
+            badges: {
+                imageBased: [],
+                textBased: [],
+                textExtendedBadges: []
+            },
+            lastMileTravelString: "5 kms",
+            hasSurge: false,
+            sla: {
+                restaurantId: "426",
+                deliveryTime: 41,
+                minDeliveryTime: 40,
+                maxDeliveryTime: 50,
+                lastMileTravel: 5,
+                lastMileDistance: 0,
+                serviceability: "SERVICEABLE",
+                rainMode: "NONE",
+                longDistance: "NOT_LONG_DISTANCE",
+                preferentialService: false,
+                iconType: "EMPTY"
+            },
+            promoted: false,
+            avgRating: "4.0",
+            totalRatings: 1000,
+            new: false
+        },
+        subtype: "basic"
+    },
+    {
+        type: "restaurant",
+        data: {
+            type: "F",
+            id: "4747",
+            name: "Phulke Ghar Ke",
+            uuid: "56825c89-4929-470b-952b-7f82541bf80a",
+            city: "1",
+            area: "Bellandur",
+            totalRatingsString: "1000+ ratings",
+            cloudinaryImageId: "r08nbmwgi1pmj01hr9yh",
+            cuisines: [
+                "North Indian"
+            ],
+            tags: [],
+            costForTwo: 20000,
+            costForTwoString: "₹200 FOR TWO",
+            deliveryTime: 31,
+            minDeliveryTime: 30,
+            maxDeliveryTime: 40,
+            slaString: "30-40 MINS",
+            lastMileTravel: 4.800000190734863,
+            slugs: {
+                restaurant: "phulke-ghar-ke-bellandursarjapur",
+                city: "bangalore"
+            },
+            cityState: "1",
+            address: "#18/1, HMR Complex, Near Ganesh Temple, Bellandur, Bangalore",
+            locality: "HMR Complex",
+            parentId: 20953,
+            unserviceable: false,
+            veg: true,
+            select: false,
+            favorite: false,
+            tradeCampaignHeaders: [],
+            aggregatedDiscountInfo: {
+                header: "50% off",
+                shortDescriptionList: [
+                    {
+                        meta: "50% off | Use WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "50% off up to ₹90 | Use code WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                subHeader: "",
+                headerType: 0,
+                superFreedel: ""
+            },
+            aggregatedDiscountInfoV2: {
+                header: "50% OFF",
+                shortDescriptionList: [
+                    {
+                        meta: "Use WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "50% off up to ₹90 | Use code WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                subHeader: "",
+                headerType: 0,
+                superFreedel: ""
+            },
+            ribbon: [
+                {
+                    type: "PROMOTED"
+                }
+            ],
+            chain: [],
+            feeDetails: {
+                fees: [],
+                totalFees: 0,
+                message: "",
+                title: "",
+                amount: "",
+                icon: ""
+            },
+            availability: {
+                opened: true,
+                nextOpenMessage: "",
+                nextCloseMessage: ""
+            },
+            longDistanceEnabled: 0,
+            rainMode: "NONE",
+            thirdPartyAddress: false,
+            thirdPartyVendor: "",
+            adTrackingID: "cid=5621037~p=7~eid=00000185-ab9f-0833-33dc-8c8000310739",
+            badges: {
+                imageBased: [],
+                textBased: [],
+                textExtendedBadges: []
+            },
+            lastMileTravelString: "4.8 kms",
+            hasSurge: false,
+            sla: {
+                restaurantId: "4747",
+                deliveryTime: 31,
+                minDeliveryTime: 30,
+                maxDeliveryTime: 40,
+                lastMileTravel: 4.800000190734863,
+                lastMileDistance: 0,
+                serviceability: "SERVICEABLE",
+                rainMode: "NONE",
+                longDistance: "NOT_LONG_DISTANCE",
+                preferentialService: false,
+                iconType: "EMPTY"
+            },
+            promoted: true,
+            avgRating: "4.2",
+            totalRatings: 1000,
+            new: false
+        },
+        subtype: "basic"
+    },
+    {
+        type: "restaurant",
+        data: {
+            type: "F",
+            id: "201224",
+            name: "Asha tiffins",
+            uuid: "e32381cf-6468-4c10-9bad-47fa08e898a8",
+            city: "1",
+            area: "HSR Layout",
+            totalRatingsString: "1000+ ratings",
+            cloudinaryImageId: "n15vckntsiboiod3gpco",
+            cuisines: [
+                "Indian",
+                "South Indian",
+                "Beverages"
+            ],
+            tags: [],
+            costForTwo: 20000,
+            costForTwoString: "₹200 FOR TWO",
+            deliveryTime: 34,
+            minDeliveryTime: 30,
+            maxDeliveryTime: 40,
+            slaString: "30-40 MINS",
+            lastMileTravel: 5,
+            slugs: {
+                restaurant: "asha-tiffins-hsr-hsr-2",
+                city: "bangalore"
+            },
+            cityState: "1",
+            address: "Asha Tiffins, 5th Main Road, Sector 7, HSR Layout, Bengaluru, Karnataka, India",
+            locality: "7th Sector",
+            parentId: 236243,
+            unserviceable: false,
+            veg: true,
+            select: false,
+            favorite: false,
+            tradeCampaignHeaders: [],
+            aggregatedDiscountInfo: {
+                header: "50% off",
+                shortDescriptionList: [
+                    {
+                        meta: "50% off | Use WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "50% off up to ₹90 | Use code WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                subHeader: "",
+                headerType: 0,
+                superFreedel: ""
+            },
+            aggregatedDiscountInfoV2: {
+                header: "50% OFF",
+                shortDescriptionList: [
+                    {
+                        meta: "Use WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "50% off up to ₹90 | Use code WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                subHeader: "",
+                headerType: 0,
+                superFreedel: ""
+            },
+            chain: [],
+            feeDetails: {
+                fees: [],
+                totalFees: 0,
+                message: "",
+                title: "",
+                amount: "",
+                icon: ""
+            },
+            availability: {
+                opened: true,
+                nextOpenMessage: "",
+                nextCloseMessage: ""
+            },
+            longDistanceEnabled: 0,
+            rainMode: "NONE",
+            thirdPartyAddress: false,
+            thirdPartyVendor: "",
+            adTrackingID: "",
+            badges: {
+                imageBased: [],
+                textBased: [],
+                textExtendedBadges: []
+            },
+            lastMileTravelString: "5 kms",
+            hasSurge: false,
+            sla: {
+                restaurantId: "201224",
+                deliveryTime: 34,
+                minDeliveryTime: 30,
+                maxDeliveryTime: 40,
+                lastMileTravel: 5,
+                lastMileDistance: 0,
+                serviceability: "SERVICEABLE",
+                rainMode: "NONE",
+                longDistance: "NOT_LONG_DISTANCE",
+                preferentialService: false,
+                iconType: "EMPTY"
+            },
+            promoted: false,
+            avgRating: "4.4",
+            totalRatings: 1000,
+            new: false
+        },
+        subtype: "basic"
+    },
+    {
+        type: "restaurant",
+        data: {
+            type: "F",
+            id: "336182",
+            name: "Madeena Hotel",
+            uuid: "a9bd8371-1696-4022-83dc-a088bd426004",
+            city: "1",
+            area: "HSR Layout",
+            totalRatingsString: "100+ ratings",
+            cloudinaryImageId: "cum8omxtaphjcuch4uiv",
+            cuisines: [
+                "Indian",
+                "Biryani",
+                "Mughlai",
+                "Tandoor",
+                "Desserts"
+            ],
+            tags: [],
+            costForTwo: 30000,
+            costForTwoString: "₹300 FOR TWO",
+            deliveryTime: 35,
+            minDeliveryTime: 30,
+            maxDeliveryTime: 40,
+            slaString: "30-40 MINS",
+            lastMileTravel: 4.199999809265137,
+            slugs: {
+                restaurant: "madeena-hotel-hsr-hsr",
+                city: "bangalore"
+            },
+            cityState: "1",
+            address: "Venkjoki Rao khane , No3 Behind salarpuraia Apartments,Mangammanapalya Main Road Bangalore",
+            locality: "Mangammanapalya",
+            parentId: 12517,
+            unserviceable: false,
+            veg: false,
+            select: false,
+            favorite: false,
+            tradeCampaignHeaders: [],
+            aggregatedDiscountInfo: {
+                header: "50% off",
+                shortDescriptionList: [
+                    {
+                        meta: "50% off | Use WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "50% off up to ₹90 | Use code WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                subHeader: "",
+                headerType: 0,
+                superFreedel: ""
+            },
+            aggregatedDiscountInfoV2: {
+                header: "50% OFF",
+                shortDescriptionList: [
+                    {
+                        meta: "Use WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "50% off up to ₹90 | Use code WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                subHeader: "",
+                headerType: 0,
+                superFreedel: ""
+            },
+            chain: [],
+            feeDetails: {
+                fees: [],
+                totalFees: 0,
+                message: "",
+                title: "",
+                amount: "",
+                icon: ""
+            },
+            availability: {
+                opened: true,
+                nextOpenMessage: "",
+                nextCloseMessage: ""
+            },
+            longDistanceEnabled: 0,
+            rainMode: "NONE",
+            thirdPartyAddress: false,
+            thirdPartyVendor: "",
+            adTrackingID: "",
+            badges: {
+                imageBased: [],
+                textBased: [],
+                textExtendedBadges: []
+            },
+            lastMileTravelString: "4.1 kms",
+            hasSurge: false,
+            sla: {
+                restaurantId: "336182",
+                deliveryTime: 35,
+                minDeliveryTime: 30,
+                maxDeliveryTime: 40,
+                lastMileTravel: 4.199999809265137,
+                lastMileDistance: 0,
+                serviceability: "SERVICEABLE",
+                rainMode: "NONE",
+                longDistance: "NOT_LONG_DISTANCE",
+                preferentialService: false,
+                iconType: "EMPTY"
+            },
+            promoted: false,
+            avgRating: "4.0",
+            totalRatings: 100,
+            new: false
+        },
+        subtype: "basic"
+    },
+    {
+        type: "restaurant",
+        data: {
+            type: "F",
+            id: "449804",
+            name: "Living Bowls",
+            uuid: "cfb95f5c-9c43-4bea-a65d-61e369e9e306",
+            city: "1",
+            area: "Kudlu Gate",
+            totalRatingsString: "1000+ ratings",
+            cloudinaryImageId: "busezo93fb5mfj3uxwwe",
+            cuisines: [
+                "Healthy Food",
+                "Salads",
+                "Juices",
+                "Keto"
+            ],
+            tags: [],
+            costForTwo: 35000,
+            costForTwoString: "₹350 FOR TWO",
+            deliveryTime: 26,
+            minDeliveryTime: 26,
+            maxDeliveryTime: 26,
+            slaString: "26 MINS",
+            lastMileTravel: 2.299999952316284,
+            slugs: {
+                restaurant: "living-bowls-koramangala-koramangala",
+                city: "bangalore"
+            },
+            cityState: "1",
+            address: "Living Food, 7th Mile Hosur Rd, Kudlu Gate, Bengaluru, Karnataka 560068",
+            locality: "7th Mile Hosur Rd",
+            parentId: 270680,
+            unserviceable: false,
+            veg: false,
+            select: false,
+            favorite: false,
+            tradeCampaignHeaders: [],
+            aggregatedDiscountInfo: {
+                header: "60% off",
+                shortDescriptionList: [
+                    {
+                        meta: "60% off | Use GUILTFREEJAN",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "60% off up to ₹150 | Use code GUILTFREEJAN",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                subHeader: "",
+                headerType: 0,
+                superFreedel: ""
+            },
+            aggregatedDiscountInfoV2: {
+                header: "60% OFF",
+                shortDescriptionList: [
+                    {
+                        meta: "Use GUILTFREEJAN",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "60% off up to ₹150 | Use code GUILTFREEJAN",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                subHeader: "",
+                headerType: 0,
+                superFreedel: ""
+            },
+            ribbon: [
+                {
+                    type: "PROMOTED"
+                }
+            ],
+            chain: [],
+            feeDetails: {
+                fees: [],
+                totalFees: 0,
+                message: "",
+                title: "",
+                amount: "",
+                icon: ""
+            },
+            availability: {
+                opened: true,
+                nextOpenMessage: "",
+                nextCloseMessage: ""
+            },
+            longDistanceEnabled: 0,
+            rainMode: "NONE",
+            thirdPartyAddress: false,
+            thirdPartyVendor: "",
+            adTrackingID: "cid=5696793~p=10~eid=00000185-ab9f-0833-33dc-8c8100310a5e",
+            badges: {
+                imageBased: [],
+                textBased: [],
+                textExtendedBadges: []
+            },
+            lastMileTravelString: "2.2 kms",
+            hasSurge: false,
+            sla: {
+                restaurantId: "449804",
+                deliveryTime: 26,
+                minDeliveryTime: 26,
+                maxDeliveryTime: 26,
+                lastMileTravel: 2.299999952316284,
+                lastMileDistance: 0,
+                serviceability: "SERVICEABLE",
+                rainMode: "NONE",
+                longDistance: "NOT_LONG_DISTANCE",
+                preferentialService: false,
+                iconType: "EMPTY"
+            },
+            promoted: true,
+            avgRating: "4.3",
+            totalRatings: 1000,
+            new: false
+        },
+        subtype: "basic"
+    },
+    {
+        type: "restaurant",
+        data: {
+            type: "F",
+            id: "319530",
+            name: "Malnad Donne Biriyani MDB",
+            uuid: "f8807990-e389-4693-bfd8-103636ae1156",
+            city: "1",
+            area: "Bommanahalli",
+            totalRatingsString: "500+ ratings",
+            cloudinaryImageId: "kamm1so6elz9i1usjosv",
+            cuisines: [
+                "Biryani",
+                "Chinese",
+                "South Indian"
+            ],
+            tags: [],
+            costForTwo: 19900,
+            costForTwoString: "₹199 FOR TWO",
+            deliveryTime: 35,
+            minDeliveryTime: 35,
+            maxDeliveryTime: 35,
+            slaString: "35 MINS",
+            lastMileTravel: 5,
+            slugs: {
+                restaurant: "malnad-donne-biriyani-mdb-btm-btm",
+                city: "bangalore"
+            },
+            cityState: "1",
+            address: "#60/3 ganesh towers kodichikanahalli main road ",
+            locality: "Kodichikanahalli Main Road",
+            parentId: 130946,
+            unserviceable: false,
+            veg: false,
+            select: false,
+            favorite: false,
+            tradeCampaignHeaders: [],
+            aggregatedDiscountInfo: {
+                header: "50% off",
+                shortDescriptionList: [
+                    {
+                        meta: "50% off | Use WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "50% off up to ₹90 | Use code WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                subHeader: "",
+                headerType: 0,
+                superFreedel: ""
+            },
+            aggregatedDiscountInfoV2: {
+                header: "50% OFF",
+                shortDescriptionList: [
+                    {
+                        meta: "Use WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "50% off up to ₹90 | Use code WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                subHeader: "",
+                headerType: 0,
+                superFreedel: ""
+            },
+            chain: [],
+            feeDetails: {
+                fees: [],
+                totalFees: 0,
+                message: "",
+                title: "",
+                amount: "",
+                icon: ""
+            },
+            availability: {
+                opened: true,
+                nextOpenMessage: "",
+                nextCloseMessage: ""
+            },
+            longDistanceEnabled: 0,
+            rainMode: "NONE",
+            thirdPartyAddress: false,
+            thirdPartyVendor: "",
+            adTrackingID: "",
+            badges: {
+                imageBased: [],
+                textBased: [],
+                textExtendedBadges: []
+            },
+            lastMileTravelString: "5 kms",
+            hasSurge: false,
+            sla: {
+                restaurantId: "319530",
+                deliveryTime: 35,
+                minDeliveryTime: 35,
+                maxDeliveryTime: 35,
+                lastMileTravel: 5,
+                lastMileDistance: 0,
+                serviceability: "SERVICEABLE",
+                rainMode: "NONE",
+                longDistance: "NOT_LONG_DISTANCE",
+                preferentialService: false,
+                iconType: "EMPTY"
+            },
+            promoted: false,
+            avgRating: "4.1",
+            totalRatings: 500,
+            new: false
+        },
+        subtype: "basic"
+    },
+    {
+        type: "restaurant",
+        data: {
+            type: "F",
+            id: "176327",
+            name: "Kebarbiq - Grill your Hunger",
+            uuid: "d2766ec4-19be-473c-a761-8caea345f610",
+            city: "1",
+            area: "HSR Layout",
+            totalRatingsString: "1000+ ratings",
+            cloudinaryImageId: "xzvmo5frzeyryb4gddpr",
+            cuisines: [
+                "Indian",
+                "Arabian",
+                "Chinese",
+                "Pizzas",
+                "Barbecue",
+                "Continental",
+                "Beverages",
+                "Combo",
+                "Italian",
+                "Desserts",
+                "Juices",
+                "Grill",
+                "Tandoor"
+            ],
+            tags: [],
+            costForTwo: 50000,
+            costForTwoString: "₹500 FOR TWO",
+            deliveryTime: 42,
+            minDeliveryTime: 40,
+            maxDeliveryTime: 50,
+            slaString: "40-50 MINS",
+            lastMileTravel: 3.799999952316284,
+            slugs: {
+                restaurant: "kebarbiq-grill-your-hunger-hsr",
+                city: "bangalore"
+            },
+            cityState: "1",
+            address: "No.445, FFK Tower, 17th Cross Road, 4th sector, hsr layout",
+            locality: "4th Sector",
+            parentId: 116273,
+            unserviceable: false,
+            veg: false,
+            select: false,
+            favorite: false,
+            tradeCampaignHeaders: [],
+            aggregatedDiscountInfo: {
+                header: "50% off",
+                shortDescriptionList: [
+                    {
+                        meta: "50% off | Use WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "50% off up to ₹90 | Use code WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                subHeader: "",
+                headerType: 0,
+                superFreedel: ""
+            },
+            aggregatedDiscountInfoV2: {
+                header: "50% OFF",
+                shortDescriptionList: [
+                    {
+                        meta: "Use WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "50% off up to ₹90 | Use code WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                subHeader: "",
+                headerType: 0,
+                superFreedel: ""
+            },
+            ribbon: [
+                {
+                    type: "PROMOTED"
+                }
+            ],
+            chain: [],
+            feeDetails: {
+                fees: [],
+                totalFees: 0,
+                message: "",
+                title: "",
+                amount: "",
+                icon: ""
+            },
+            availability: {
+                opened: true,
+                nextOpenMessage: "",
+                nextCloseMessage: ""
+            },
+            longDistanceEnabled: 0,
+            rainMode: "NONE",
+            thirdPartyAddress: false,
+            thirdPartyVendor: "",
+            adTrackingID: "cid=5667037~p=13~eid=00000185-ab9f-0833-33dc-8c8200310d3b",
+            badges: {
+                imageBased: [],
+                textBased: [],
+                textExtendedBadges: []
+            },
+            lastMileTravelString: "3.7 kms",
+            hasSurge: false,
+            sla: {
+                restaurantId: "176327",
+                deliveryTime: 42,
+                minDeliveryTime: 40,
+                maxDeliveryTime: 50,
+                lastMileTravel: 3.799999952316284,
+                lastMileDistance: 0,
+                serviceability: "SERVICEABLE",
+                rainMode: "NONE",
+                longDistance: "NOT_LONG_DISTANCE",
+                preferentialService: false,
+                iconType: "EMPTY"
+            },
+            promoted: true,
+            avgRating: "4.1",
+            totalRatings: 1000,
+            new: false
+        },
+        subtype: "basic"
+    },
+    {
+        type: "restaurant",
+        data: {
+            type: "F",
+            id: "57283",
+            name: "Burger King",
+            uuid: "ff073b00-d9a7-4e33-a2d6-3bd423bbed09",
+            city: "1",
+            area: "Hsr Layout",
+            totalRatingsString: "1000+ ratings",
+            cloudinaryImageId: "wn5893xotiz5g3yorcji",
+            cuisines: [
+                "Burgers",
+                "American"
+            ],
+            tags: [],
+            costForTwo: 35000,
+            costForTwoString: "₹350 FOR TWO",
+            deliveryTime: 51,
+            minDeliveryTime: 50,
+            maxDeliveryTime: 60,
+            slaString: "50-60 MINS",
+            lastMileTravel: 4.199999809265137,
+            slugs: {
+                restaurant: "burger-king-ground-floor-hsr-layout-sectror-3-hsr",
+                city: "bangalore"
+            },
+            cityState: "1",
+            address: "Burger King India Pvt Ltd, No.1081 Ground floor , HSR layout Sectror  3  Bangalore 560102",
+            locality: "3rd Sector",
+            parentId: 166,
+            unserviceable: false,
+            veg: false,
+            select: false,
+            favorite: false,
+            tradeCampaignHeaders: [],
+            aggregatedDiscountInfo: {
+                header: "60% off",
+                shortDescriptionList: [
+                    {
+                        meta: "60% off | Use STEALDEAL",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "60% off up to ₹120 | Use code STEALDEAL",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                subHeader: "",
+                headerType: 0,
+                superFreedel: ""
+            },
+            aggregatedDiscountInfoV2: {
+                header: "60% OFF",
+                shortDescriptionList: [
+                    {
+                        meta: "Use STEALDEAL",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "60% off up to ₹120 | Use code STEALDEAL",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                subHeader: "",
+                headerType: 0,
+                superFreedel: ""
+            },
+            chain: [],
+            feeDetails: {
+                fees: [],
+                totalFees: 0,
+                message: "",
+                title: "",
+                amount: "",
+                icon: ""
+            },
+            availability: {
+                opened: true,
+                nextOpenMessage: "",
+                nextCloseMessage: ""
+            },
+            longDistanceEnabled: 0,
+            rainMode: "NONE",
+            thirdPartyAddress: false,
+            thirdPartyVendor: "",
+            adTrackingID: "",
+            badges: {
+                imageBased: [],
+                textBased: [],
+                textExtendedBadges: []
+            },
+            lastMileTravelString: "4.1 kms",
+            hasSurge: false,
+            sla: {
+                restaurantId: "57283",
+                deliveryTime: 51,
+                minDeliveryTime: 50,
+                maxDeliveryTime: 60,
+                lastMileTravel: 4.199999809265137,
+                lastMileDistance: 0,
+                serviceability: "SERVICEABLE",
+                rainMode: "NONE",
+                longDistance: "NOT_LONG_DISTANCE",
+                preferentialService: false,
+                iconType: "EMPTY"
+            },
+            promoted: false,
+            avgRating: "4.1",
+            totalRatings: 1000,
+            new: false
+        },
+        subtype: "basic"
+    },
+    {
+        type: "restaurant",
+        data: {
+            type: "F",
+            id: "527860",
+            name: "AL KHAJA RESTURENT",
+            uuid: "1fe3fda1-8557-4953-8eb3-64b7a9c6e0bf",
+            city: "1",
+            area: "Bommanahalli",
+            totalRatingsString: "100+ ratings",
+            cloudinaryImageId: "t4kx6yqfmvc3ivnbnybp",
+            cuisines: [
+                "Chinese",
+                "North Indian",
+                "Arabian",
+                "Ice Cream",
+                "Beverages"
+            ],
+            tags: [],
+            costForTwo: 50000,
+            costForTwoString: "₹500 FOR TWO",
+            deliveryTime: 34,
+            minDeliveryTime: 30,
+            maxDeliveryTime: 40,
+            slaString: "30-40 MINS",
+            lastMileTravel: 3.9000000953674316,
+            slugs: {
+                restaurant: "al-khaja-resturent-hsr-hsr",
+                city: "bangalore"
+            },
+            cityState: "1",
+            address: "NO 22/23 B MANGAMMANAPALYA MAIN ROAD NEAR SALAPURIA APARTMENT BOMMANAHALLI BANGALORE 560068",
+            locality: "Mangammanapalya Main Road",
+            parentId: 318464,
+            unserviceable: false,
+            veg: false,
+            select: false,
+            favorite: false,
+            tradeCampaignHeaders: [],
+            aggregatedDiscountInfo: {
+                header: "50% off",
+                shortDescriptionList: [
+                    {
+                        meta: "50% off | Use WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "50% off up to ₹90 | Use code WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                subHeader: "",
+                headerType: 0,
+                superFreedel: ""
+            },
+            aggregatedDiscountInfoV2: {
+                header: "50% OFF",
+                shortDescriptionList: [
+                    {
+                        meta: "Use WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "50% off up to ₹90 | Use code WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                subHeader: "",
+                headerType: 0,
+                superFreedel: ""
+            },
+            chain: [],
+            feeDetails: {
+                fees: [],
+                totalFees: 0,
+                message: "",
+                title: "",
+                amount: "",
+                icon: ""
+            },
+            availability: {
+                opened: true,
+                nextOpenMessage: "",
+                nextCloseMessage: ""
+            },
+            longDistanceEnabled: 0,
+            rainMode: "NONE",
+            thirdPartyAddress: false,
+            thirdPartyVendor: "",
+            adTrackingID: "",
+            badges: {
+                imageBased: [],
+                textBased: [],
+                textExtendedBadges: []
+            },
+            lastMileTravelString: "3.9 kms",
+            hasSurge: false,
+            sla: {
+                restaurantId: "527860",
+                deliveryTime: 34,
+                minDeliveryTime: 30,
+                maxDeliveryTime: 40,
+                lastMileTravel: 3.9000000953674316,
+                lastMileDistance: 0,
+                serviceability: "SERVICEABLE",
+                rainMode: "NONE",
+                longDistance: "NOT_LONG_DISTANCE",
+                preferentialService: false,
+                iconType: "EMPTY"
+            },
+            promoted: false,
+            avgRating: "4.2",
+            totalRatings: 100,
+            new: false
+        },
+        subtype: "basic"
+    },
+    {
+        type: "restaurant",
+        data: {
+            type: "F",
+            id: "42294",
+            name: "Udupi Palace",
+            uuid: "7e5fb1de-707b-4851-a0f7-a70df335efe2",
+            city: "1",
+            area: "HSR Layout",
+            totalRatingsString: "1000+ ratings",
+            cloudinaryImageId: "dbfp4mqtidbjh9sectlk",
+            cuisines: [
+                "Beverages",
+                "Biryani",
+                "Chinese",
+                "Desserts",
+                "North Indian",
+                "South Indian"
+            ],
+            tags: [],
+            costForTwo: 15000,
+            costForTwoString: "₹150 FOR TWO",
+            deliveryTime: 30,
+            minDeliveryTime: 25,
+            maxDeliveryTime: 35,
+            slaString: "25-35 MINS",
+            lastMileTravel: 3,
+            slugs: {
+                restaurant: "udupi-palace-00-hsr",
+                city: "bangalore"
+            },
+            cityState: "1",
+            address: "No 1188 HNR tower 24th main second SECTOR HSR LAYOUT BANGALORE 560102",
+            locality: "2nd Sector",
+            parentId: 6971,
+            unserviceable: false,
+            veg: true,
+            select: false,
+            favorite: false,
+            tradeCampaignHeaders: [],
+            aggregatedDiscountInfo: {
+                header: "50% off",
+                shortDescriptionList: [
+                    {
+                        meta: "50% off | Use WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "50% off up to ₹90 | Use code WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                subHeader: "",
+                headerType: 0,
+                superFreedel: ""
+            },
+            aggregatedDiscountInfoV2: {
+                header: "50% OFF",
+                shortDescriptionList: [
+                    {
+                        meta: "Use WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "50% off up to ₹90 | Use code WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                subHeader: "",
+                headerType: 0,
+                superFreedel: ""
+            },
+            ribbon: [
+                {
+                    type: "PROMOTED"
+                }
+            ],
+            chain: [],
+            feeDetails: {
+                fees: [],
+                totalFees: 0,
+                message: "",
+                title: "",
+                amount: "",
+                icon: ""
+            },
+            availability: {
+                opened: true,
+                nextOpenMessage: "",
+                nextCloseMessage: ""
+            },
+            longDistanceEnabled: 0,
+            rainMode: "NONE",
+            thirdPartyAddress: false,
+            thirdPartyVendor: "",
+            adTrackingID: "cid=5684869~p=16~eid=00000185-ab9f-0833-33dc-8c8300311078",
+            badges: {
+                imageBased: [],
+                textBased: [],
+                textExtendedBadges: []
+            },
+            lastMileTravelString: "3 kms",
+            hasSurge: false,
+            sla: {
+                restaurantId: "42294",
+                deliveryTime: 30,
+                minDeliveryTime: 25,
+                maxDeliveryTime: 35,
+                lastMileTravel: 3,
+                lastMileDistance: 0,
+                serviceability: "SERVICEABLE",
+                rainMode: "NONE",
+                longDistance: "NOT_LONG_DISTANCE",
+                preferentialService: false,
+                iconType: "EMPTY"
+            },
+            promoted: true,
+            avgRating: "4.2",
+            totalRatings: 1000,
+            new: false
+        },
+        subtype: "basic"
+    },
+    {
+        type: "restaurant",
+        data: {
+            type: "F",
+            id: "365010",
+            name: "Hotel Salam",
+            uuid: "0a29b957-8817-4d4c-bc32-ca009921472d",
+            city: "1",
+            area: "Bommanahalli",
+            totalRatingsString: "500+ ratings",
+            cloudinaryImageId: "hgdmw8uwgewhiewwovjh",
+            cuisines: [
+                "Biryani",
+                "Tandoor",
+                "Arabian",
+                "Indian",
+                "Beverages"
+            ],
+            tags: [],
+            costForTwo: 25000,
+            costForTwoString: "₹250 FOR TWO",
+            deliveryTime: 31,
+            minDeliveryTime: 30,
+            maxDeliveryTime: 40,
+            slaString: "30-40 MINS",
+            lastMileTravel: 3.700000047683716,
+            slugs: {
+                restaurant: "hotel-salam-hsr-hsr",
+                city: "bangalore"
+            },
+            cityState: "1",
+            address: "43/1,OPP.Salarpuria Serenity ,M G Palya Main Road, Bangalore-560068",
+            locality: "M G Palya",
+            parentId: 101873,
+            unserviceable: false,
+            veg: false,
+            select: false,
+            favorite: false,
+            tradeCampaignHeaders: [],
+            aggregatedDiscountInfo: {
+                header: "50% off",
+                shortDescriptionList: [
+                    {
+                        meta: "50% off | Use WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "50% off up to ₹90 | Use code WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                subHeader: "",
+                headerType: 0,
+                superFreedel: ""
+            },
+            aggregatedDiscountInfoV2: {
+                header: "50% OFF",
+                shortDescriptionList: [
+                    {
+                        meta: "Use WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "50% off up to ₹90 | Use code WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                subHeader: "",
+                headerType: 0,
+                superFreedel: ""
+            },
+            chain: [],
+            feeDetails: {
+                fees: [],
+                totalFees: 0,
+                message: "",
+                title: "",
+                amount: "",
+                icon: ""
+            },
+            availability: {
+                opened: true,
+                nextOpenMessage: "",
+                nextCloseMessage: ""
+            },
+            longDistanceEnabled: 0,
+            rainMode: "NONE",
+            thirdPartyAddress: false,
+            thirdPartyVendor: "",
+            adTrackingID: "",
+            badges: {
+                imageBased: [],
+                textBased: [],
+                textExtendedBadges: []
+            },
+            lastMileTravelString: "3.7 kms",
+            hasSurge: false,
+            sla: {
+                restaurantId: "365010",
+                deliveryTime: 31,
+                minDeliveryTime: 30,
+                maxDeliveryTime: 40,
+                lastMileTravel: 3.700000047683716,
+                lastMileDistance: 0,
+                serviceability: "SERVICEABLE",
+                rainMode: "NONE",
+                longDistance: "NOT_LONG_DISTANCE",
+                preferentialService: false,
+                iconType: "EMPTY"
+            },
+            promoted: false,
+            avgRating: "4.0",
+            totalRatings: 500,
+            new: false
+        },
+        subtype: "basic"
+    }
+];
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5X1cP":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$4eb3 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$4eb3.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _restaurantListScss = require("./RestaurantList.scss");
+var _config = require("../../config");
+const RestaurantList = ({ restaurant  })=>{
+    const { id , name , cloudinaryImageId , cuisines , costForTwoString , deliveryTime , avgRating  } = restaurant;
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "restaurant",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                src: (0, _config.imgPath) + cloudinaryImageId,
+                alt: ""
+            }, void 0, false, {
+                fileName: "src/components/RestaurantList/RestaurantList.jsx",
+                lineNumber: 18,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                className: "title",
+                children: name
+            }, void 0, false, {
+                fileName: "src/components/RestaurantList/RestaurantList.jsx",
+                lineNumber: 19,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "cuisines",
+                children: cuisines.join(", ")
+            }, void 0, false, {
+                fileName: "src/components/RestaurantList/RestaurantList.jsx",
+                lineNumber: 20,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        className: "rating",
+                        children: avgRating
+                    }, void 0, false, {
+                        fileName: "src/components/RestaurantList/RestaurantList.jsx",
+                        lineNumber: 22,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        children: [
+                            deliveryTime,
+                            " MINS"
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/RestaurantList/RestaurantList.jsx",
+                        lineNumber: 23,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        children: costForTwoString
+                    }, void 0, false, {
+                        fileName: "src/components/RestaurantList/RestaurantList.jsx",
+                        lineNumber: 24,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/RestaurantList/RestaurantList.jsx",
+                lineNumber: 21,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/RestaurantList/RestaurantList.jsx",
+        lineNumber: 17,
+        columnNumber: 5
+    }, undefined);
+};
+_c = RestaurantList;
+exports.default = RestaurantList;
+var _c;
+$RefreshReg$(_c, "RestaurantList");
+
+  $parcel$ReactRefreshHelpers$4eb3.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../../config":"jtCLN","./RestaurantList.scss":"CNa5w"}],"CNa5w":[function() {},{}],"1wi6y":[function() {},{}],"Sm3O5":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$5b81 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$5b81.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+const Footer = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: "This is footer"
+    }, void 0, false, {
+        fileName: "src/components/Footer/Footer.jsx",
+        lineNumber: 4,
+        columnNumber: 10
+    }, undefined);
+};
+_c = Footer;
+exports.default = Footer;
+var _c;
+$RefreshReg$(_c, "Footer");
+
+  $parcel$ReactRefreshHelpers$5b81.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hTZHl":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$17de = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$17de.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+const Header = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
+        className: "header",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "logo",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    src: "/images/logo.png"
+                }, void 0, false, {
+                    fileName: "src/components/Header/Header.jsx",
+                    lineNumber: 7,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/Header/Header.jsx",
+                lineNumber: 6,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "menu",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "Offers"
+                        }, void 0, false, {
+                            fileName: "src/components/Header/Header.jsx",
+                            lineNumber: 12,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "Help"
+                        }, void 0, false, {
+                            fileName: "src/components/Header/Header.jsx",
+                            lineNumber: 13,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "Sign In"
+                        }, void 0, false, {
+                            fileName: "src/components/Header/Header.jsx",
+                            lineNumber: 14,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "Cart"
+                        }, void 0, false, {
+                            fileName: "src/components/Header/Header.jsx",
+                            lineNumber: 15,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/Header/Header.jsx",
+                    lineNumber: 11,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/Header/Header.jsx",
+                lineNumber: 10,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Header/Header.jsx",
+        lineNumber: 5,
+        columnNumber: 5
+    }, undefined);
+};
+_c = Header;
+exports.default = Header;
+var _c;
+$RefreshReg$(_c, "Header");
+
+  $parcel$ReactRefreshHelpers$17de.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lOjBx":[function(require,module,exports) {
+"use strict";
+var m = require("12705aadb55f62ed");
+var i = m.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+exports.createRoot = function(c, o) {
+    i.usingClientEntryPoint = true;
+    try {
+        return m.createRoot(c, o);
+    } finally{
+        i.usingClientEntryPoint = false;
+    }
+};
+exports.hydrateRoot = function(c, h, o) {
+    i.usingClientEntryPoint = true;
+    try {
+        return m.hydrateRoot(c, h, o);
+    } finally{
+        i.usingClientEntryPoint = false;
+    }
+};
+
+},{"12705aadb55f62ed":"j6uA9"}],"j6uA9":[function(require,module,exports) {
 "use strict";
 function checkDCE() {
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ === "undefined" || typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE !== "function") return;
@@ -27190,170 +29509,6 @@ module.exports = require("178931dae482fcbd");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{}],"gkKU3":[function(require,module,exports) {
-exports.interopDefault = function(a) {
-    return a && a.__esModule ? a : {
-        default: a
-    };
-};
-exports.defineInteropFlag = function(a) {
-    Object.defineProperty(a, "__esModule", {
-        value: true
-    });
-};
-exports.exportAll = function(source, dest) {
-    Object.keys(source).forEach(function(key) {
-        if (key === "default" || key === "__esModule" || dest.hasOwnProperty(key)) return;
-        Object.defineProperty(dest, key, {
-            enumerable: true,
-            get: function() {
-                return source[key];
-            }
-        });
-    });
-    return dest;
-};
-exports.export = function(dest, destName, get) {
-    Object.defineProperty(dest, destName, {
-        enumerable: true,
-        get: get
-    });
-};
+},{}]},["1xC6H","7Zeie","2kQhy"], "2kQhy", "parcelRequire164e")
 
-},{}],"km3Ru":[function(require,module,exports) {
-"use strict";
-var Refresh = require("806185422dde97b5");
-function debounce(func, delay) {
-    var args;
-    {
-        let timeout = undefined;
-        let lastTime = 0;
-        return function(args) {
-            // Call immediately if last call was more than the delay ago.
-            // Otherwise, set a timeout. This means the first call is fast
-            // (for the common case of a single update), and subsequent updates
-            // are batched.
-            let now = Date.now();
-            if (now - lastTime > delay) {
-                lastTime = now;
-                func.call(null, args);
-            } else {
-                clearTimeout(timeout);
-                timeout = setTimeout(function() {
-                    timeout = undefined;
-                    lastTime = Date.now();
-                    func.call(null, args);
-                }, delay);
-            }
-        };
-    }
-}
-var enqueueUpdate = debounce(function() {
-    Refresh.performReactRefresh();
-}, 30); // Everthing below is either adapted or copied from
-// https://github.com/facebook/metro/blob/61de16bd1edd7e738dd0311c89555a644023ab2d/packages/metro/src/lib/polyfills/require.js
-// MIT License - Copyright (c) Facebook, Inc. and its affiliates.
-module.exports.prelude = function(module1) {
-    window.$RefreshReg$ = function(type, id) {
-        Refresh.register(type, module1.id + " " + id);
-    };
-    window.$RefreshSig$ = Refresh.createSignatureFunctionForTransform;
-};
-module.exports.postlude = function(module1) {
-    if (isReactRefreshBoundary(module1.exports)) {
-        registerExportsForReactRefresh(module1);
-        if (module1.hot) {
-            module1.hot.dispose(function(data) {
-                if (Refresh.hasUnrecoverableErrors()) window.location.reload();
-                data.prevExports = module1.exports;
-            });
-            module1.hot.accept(function(getParents) {
-                var prevExports = module1.hot.data.prevExports;
-                var nextExports = module1.exports; // Since we just executed the code for it, it's possible
-                // that the new exports make it ineligible for being a boundary.
-                var isNoLongerABoundary = !isReactRefreshBoundary(nextExports); // It can also become ineligible if its exports are incompatible
-                // with the previous exports.
-                // For example, if you add/remove/change exports, we'll want
-                // to re-execute the importing modules, and force those components
-                // to re-render. Similarly, if you convert a class component
-                // to a function, we want to invalidate the boundary.
-                var didInvalidate = shouldInvalidateReactRefreshBoundary(prevExports, nextExports);
-                if (isNoLongerABoundary || didInvalidate) {
-                    // We'll be conservative. The only case in which we won't do a full
-                    // reload is if all parent modules are also refresh boundaries.
-                    // In that case we'll add them to the current queue.
-                    var parents = getParents();
-                    if (parents.length === 0) {
-                        // Looks like we bubbled to the root. Can't recover from that.
-                        window.location.reload();
-                        return;
-                    }
-                    return parents;
-                }
-                enqueueUpdate();
-            });
-        }
-    }
-};
-function isReactRefreshBoundary(exports) {
-    if (Refresh.isLikelyComponentType(exports)) return true;
-    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
-    return false;
-    var hasExports = false;
-    var areAllExportsComponents = true;
-    let isESM = "__esModule" in exports;
-    for(var key in exports){
-        hasExports = true;
-        if (key === "__esModule") continue;
-        var desc = Object.getOwnPropertyDescriptor(exports, key);
-        if (desc && desc.get && !isESM) // Don't invoke getters for CJS as they may have side effects.
-        return false;
-        var exportValue = exports[key];
-        if (!Refresh.isLikelyComponentType(exportValue)) areAllExportsComponents = false;
-    }
-    return hasExports && areAllExportsComponents;
-}
-function shouldInvalidateReactRefreshBoundary(prevExports, nextExports) {
-    var prevSignature = getRefreshBoundarySignature(prevExports);
-    var nextSignature = getRefreshBoundarySignature(nextExports);
-    if (prevSignature.length !== nextSignature.length) return true;
-    for(var i = 0; i < nextSignature.length; i++){
-        if (prevSignature[i] !== nextSignature[i]) return true;
-    }
-    return false;
-} // When this signature changes, it's unsafe to stop at this refresh boundary.
-function getRefreshBoundarySignature(exports) {
-    var signature = [];
-    signature.push(Refresh.getFamilyByType(exports));
-    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
-    // (This is important for legacy environments.)
-    return signature;
-    let isESM = "__esModule" in exports;
-    for(var key in exports){
-        if (key === "__esModule") continue;
-        var desc = Object.getOwnPropertyDescriptor(exports, key);
-        if (desc && desc.get && !isESM) continue;
-        var exportValue = exports[key];
-        signature.push(key);
-        signature.push(Refresh.getFamilyByType(exportValue));
-    }
-    return signature;
-}
-function registerExportsForReactRefresh(module1) {
-    var exports = module1.exports, id = module1.id;
-    Refresh.register(exports, id + " %exports%");
-    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
-    // (This is important for legacy environments.)
-    return;
-    let isESM = "__esModule" in exports;
-    for(var key in exports){
-        var desc = Object.getOwnPropertyDescriptor(exports, key);
-        if (desc && desc.get && !isESM) continue;
-        var exportValue = exports[key];
-        Refresh.register(exportValue, id + " %exports% " + key);
-    }
-}
-
-},{"806185422dde97b5":"786KC"}]},["1xC6H","e3CPO","2Ew96"], "2Ew96", "parcelRequire164e")
-
-//# sourceMappingURL=index.7826abd7.js.map
+//# sourceMappingURL=index.7271efb6.js.map
