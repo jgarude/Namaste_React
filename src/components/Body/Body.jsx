@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { data } from '../../config';
+import { Link } from 'react-router-dom';
+import Loading from '../Loading/Loading';
+
 import RestaurantList from '../RestaurantList/RestaurantList';
 import './Body.scss';
 
@@ -16,8 +18,19 @@ const Body = () => {
   };
 
   useEffect(() => {
-    setRestaurantList(data);
+    fetchRestraurant();
   }, []);
+
+  const fetchRestraurant = async () => {
+    const response = await fetch(
+      'https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.895737808118996&lng=77.65676497804067&page_type=DESKTOP_WEB_LISTING'
+    );
+    const data = await response.json();
+    setRestaurantList(data?.data?.cards[2]?.data?.data?.cards);
+    console.log('>>>>> data', data?.data?.cards[2]?.data?.data?.cards);
+  };
+
+  console.log('>>>>>>> render');
 
   return (
     <div className="body-container">
@@ -30,10 +43,14 @@ const Body = () => {
         />
       </div>
       <div className="restaurant-list">
-        {console.log('>>>>> restaurantList1', restaurantList)}
-        {findRestrarants(restaurantList).map((item) => {
-          return <RestaurantList restaurant={item.data} key={item.data.id} />;
-        })}
+        {(restaurantList.length > 0 &&
+          findRestrarants(restaurantList).map((item) => {
+            return (
+              <Link to={`restaurant/${item.data.id}`}>
+                <RestaurantList restaurant={item.data} key={item.data.id} />
+              </Link>
+            );
+          })) || <Loading />}
       </div>
     </div>
   );
