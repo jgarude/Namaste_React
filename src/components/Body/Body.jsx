@@ -43,11 +43,12 @@ const Body = () => {
         />
       </div>
       <div className="restaurant-list">
-        {(restaurantList.length > 0 &&
+        {(restaurantList &&
+          restaurantList.length > 0 &&
           findRestrarants(restaurantList).map((item) => {
             return (
-              <Link to={`restaurant/${item.data.id}`}>
-                <RestaurantList restaurant={item.data} key={item.data.id} />
+              <Link to={`restaurant/${item.data.id}`} key={item.data.id}>
+                <RestaurantList restaurant={item.data} />
               </Link>
             );
           })) || <Loading />}

@@ -1,13 +1,13 @@
 import React from 'react';
 import './Loading.scss';
 
-const shimmerCard = () => {
+const shimmerCard = (index) => {
   return (
-    <div class="card_shimmer">
-      <div class="shimmerBG media"></div>
-      <div class="p-32">
-        <div class="shimmerBG title-line"></div>
-        <div class="shimmerBG title-line end"></div>
+    <div className="card_shimmer" key={index}>
+      <div className="shimmerBG media"></div>
+      <div className="p-32">
+        <div className="shimmerBG title-line"></div>
+        <div className="shimmerBG title-line end"></div>
       </div>
     </div>
   );
@@ -16,9 +16,9 @@ const shimmerCard = () => {
 const Loading = () => {
   return (
     <div className="shimmer-container">
-      {Array(10)
+      {Array(9)
         .fill('')
-        .map((e, index) => shimmerCard())}
+        .map((e, index) => shimmerCard(index))}
     </div>
   );
 };

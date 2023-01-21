@@ -65,6 +65,53 @@ body {
   padding: 0;
 }
 
+.restaurant-details {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 20px 48px;
+}
+
+.restaurant-details .info {
+  border-bottom: 1px dashed #ccc;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+.restaurant-details .info .right .ratings {
+  color: #3d9b6d;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-weight: bold;
+}
+
+.restaurant-details .menu {
+  margin-top: 28px;
+}
+
+.restaurant-details .menu .row {
+  border-bottom: 1px solid #ddd;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 4px;
+  display: flex;
+}
+
+.restaurant-details .menu .row .left h6 {
+  font-size: 16px;
+}
+
+.restaurant-details .menu .row .left p {
+  color: #949393;
+  font-size: 12px;
+}
+
+.restaurant-details .menu .row .right img {
+  width: 140px;
+}
+
 .error-container {
   text-align: center;
   padding: 20px;
@@ -79,91 +126,10 @@ li a {
   text-decoration: none;
 }
 
-body {
-  background: #f5f5f5;
-}
-
-.shimmer-container {
-  flex-wrap: wrap;
-  justify-content: left;
-  align-items: flex-start;
-  padding: 0 40px;
-  display: flex;
-}
-
-.card_shimmer {
-  height: 300px;
-  width: 250px;
-  background-color: #fff;
-  border-radius: 6px;
-  margin: 30px;
-  position: relative;
-  overflow: hidden;
-  box-shadow: 0 6px 8px #0000001a;
-}
-
-.card_shimmer .shimmerBG {
-  background: linear-gradient(to right, #eaebec 4%, #dbe1e3 25%, #d7dadc 36%) 0 0 / 1200px 100%;
-  animation-name: shimmer;
-  animation-duration: 2.2s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-fill-mode: forwards;
-}
-
-@-webkit-keyframes shimmer {
-  0% {
-    background-position: -100% 0;
-  }
-
-  100% {
-    background-position: 100% 0;
-  }
-}
-
-@keyframes shimmer {
-  0% {
-    background-position: -1200px 0;
-  }
-
-  100% {
-    background-position: 1200px 0;
-  }
-}
-
-.card_shimmer .media {
-  height: 200px;
-}
-
-.card_shimmer .p-32 {
-  padding: 32px;
-}
-
-.card_shimmer .title-line {
-  height: 12px;
-  width: 100%;
-  border-radius: 20px;
-  margin-bottom: 12px;
-}
-
-.card_shimmer .content-line {
-  height: 8px;
-  width: 100%;
-  border-radius: 8px;
-  margin-bottom: 16px;
-}
-
-.card_shimmer .end {
-  width: 40%;
-}
-
-.m-t-24 {
-  margin-top: 24px;
-}
-
 .body-container .restaurant-list {
   flex-wrap: wrap;
-  justify-content: start;
+  justify-content: flex-start;
+  padding: 32px;
   display: flex;
 }
 
@@ -195,8 +161,8 @@ body {
   width: 250px;
   height: 320px;
   flex-direction: column;
-  margin: 0 8px 10px;
-  padding: 10px 20px;
+  margin: 0 12px 10px;
+  padding: 10px 0;
   display: flex;
 }
 
@@ -237,6 +203,88 @@ body {
   color: #fff;
   background-color: #48c479;
   padding: 2px 9px;
+}
+
+body {
+  background: #f5f5f5;
+}
+
+.shimmer-container {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0;
+  display: flex;
+}
+
+.card_shimmer {
+  height: 300px;
+  width: 250px;
+  background-color: #fff;
+  border-radius: 0;
+  margin: 20px 12px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 6px 8px #0000001a;
+}
+
+.card_shimmer .shimmerBG {
+  background: linear-gradient(to right, #eaebec 4%, #dbe1e3 25%, #d7dadc 36%) 0 0 / 1200px 100%;
+  animation-name: shimmer;
+  animation-duration: 2.2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes shimmer {
+  0% {
+    background-position: -100% 0;
+  }
+
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -1200px 0;
+  }
+
+  100% {
+    background-position: 1200px 0;
+  }
+}
+
+.card_shimmer .media {
+  height: 150px;
+}
+
+.card_shimmer .p-32 {
+  padding: 32px;
+}
+
+.card_shimmer .title-line {
+  height: 12px;
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 12px;
+}
+
+.card_shimmer .content-line {
+  height: 8px;
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.card_shimmer .end {
+  width: 40%;
+}
+
+.m-t-24 {
+  margin-top: 24px;
 }
 
 /*# sourceMappingURL=index.ac93e151.css.map */

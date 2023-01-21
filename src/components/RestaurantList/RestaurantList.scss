@@ -8,8 +8,8 @@ $border-color_1: #d3d5df;
   display: flex;
   flex-direction: column;
   height: 320px;
-  margin: 0px 8px 10px 8px;
-  padding: 10px 20px;
+  margin: 0px 12px 10px 12px;
+  padding: 10px 0px;
   &:hover {
     border-color: $border-color_1;
     box-shadow: 0 4px 7px 0 rgb(218 220 230 / 60%);
